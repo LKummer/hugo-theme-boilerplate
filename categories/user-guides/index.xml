@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User Guides on Hugo Theme Pack</title>
+    <link>/categories/user-guides/</link>
+    <description>Recent content in User Guides on Hugo Theme Pack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="/categories/user-guides/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting Started</title>
+      <link>/guide/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/guide/getting-started/</guid>
+      <description>This is an example documentation guide.</description>
+    </item>
+    
+  </channel>
+</rss>
