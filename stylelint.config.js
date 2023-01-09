@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['stylelint-config-standard', 'prettier'],
+  extends: ['stylelint-config-standard', 'stylelint-config-prettier'],
   plugins: ['stylelint-scss', 'stylelint-order'],
   customSyntax: 'postcss-scss',
   rules: {
