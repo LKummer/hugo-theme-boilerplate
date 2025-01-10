@@ -2,8 +2,6 @@ const { join } = require('path');
 
 const CopyPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const ESLintPlugin = require('eslint-webpack-plugin');
-const StylelintPlugin = require('stylelint-webpack-plugin');
 
 module.exports = (env) => {
   const isProduction = env && env.prod;
@@ -41,13 +39,6 @@ module.exports = (env) => {
       // Extracts a CSS file.
       new MiniCssExtractPlugin({
         filename: '[name].css'
-      }),
-      // Lint during build.
-      new ESLintPlugin({
-        files: ['src/**/*.js', '*.js']
-      }),
-      new StylelintPlugin({
-        files: ['src/**/*.s?(a|c)ss']
       })
     ]
   };
